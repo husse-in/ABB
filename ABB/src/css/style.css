@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+
+.first{
+    width: 100%;
+    
+}
+
+.container{
+    padding: 0px 30px;
+}
+
+.first .container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 24px 0px 0px;
+    margin-right: 15px;
+}
+
+nav ul li a{
+    color: #666666;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #666666;
+    transition: .4s;
+}
+
+.btn{
+    background-color: none;
+    color: blue;
+    text-decoration: none;
+    border: 1.5px solid transparent;
+    font-weight: bold;
+    padding: 6px 0;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    background-color: #666666;
+}
+
+.second .logo{
+    width: 120px;
+}
+
+.second .logo img{
+    width: 100%;
+}
+
+.second .container{
+    padding: 0 30px;
+}
+
+.second .container nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.second nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 24px 0px 0px;
+    margin-right: 15px;
+}
+
+.second .nav ul li a{
+    color: #666666;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.second .nav ul li a:hover{
+    color: #666666;
+    transition: .4s;
+}
+
+
+.third{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.dropdown__menu{
+    display: none;
+}
+
+.third:hover .dropdown__menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+
+
+.dropdown__menu ul{
+    display: block;
+    margin: 10px;
+}
+
+.dropdown__menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+
+
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+
+
+
+
+
